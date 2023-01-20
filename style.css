@@ -306,6 +306,10 @@ footer {
   .nav-item {
     display: inline-grid;
   }
+
+  .movies .raw .col {
+    margin: 0 5px;
+  }
 }
 
 .col .card img {
