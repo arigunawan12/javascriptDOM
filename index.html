@@ -16,7 +16,7 @@
     <title>Document</title>
   </head>
   <body>
-  <!-- Navbar -->
+    <!-- Navbar -->
     <nav class="container-fluid navbar navbar-expand-lg ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#" style="color: white"><i class="bi bi-camera-reels ms-1"></i><span style="font-family: 'Nabla'; margin-left: 2px">F</span>lix</a>
@@ -35,7 +35,7 @@
           </li>
           <!-- search -->
           <li class="nav-item">
-            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
               <i class="bi-person-circle p-2" style="font-size: 1rem; color: white;"></i>
             </button>
           </li>
@@ -43,196 +43,298 @@
       </div>
     </div>
     </nav>
+    <!-- Navbar End -->
+
+    <!-- alert -->
     <div class="alert alert-warning alert-dismissible fade show" role="alert" style="font-size: 12px; text-align: center;">
       Don't Forget Chek Our Newest Movie <a href="#" class="stretched-link">Here</a>
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
-    <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content custom-btn">
-      <div class="modal-header justify-content-center">
-        <h5 class="text-center">Login</h5>
-      </div>
-        <!-- form -->
-        <form method="post"> 
-          <div class="txt_field w-75 m-5 position-relative border-bottom">
+    <!-- alert end -->
+    
+    <!-- Modal Login Form-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content custom-btn">
+          <div class="modal-header justify-content-center">
+            <h5 class="text-center">Login</h5>
+          </div>
+          <!-- form -->
+          <form method="post"> 
+            <div class="txt_field w-75 m-5 position-relative border-bottom">
           <input type="text" required>
-          <span></span>
           <label>Username</label>
         </div>
         <div class="txt_field w-75 m-5 position-relative border-bottom">
           <input type="password" required>
-          <span></span>
           <label>Password</label>
         </div>
         <div class="d-flex justify-content-around">
-        <button type="button" class="btn btn-link text-decoration-none">Forgot Password</button>
-        <label class="form-check-label text-decoration-none my-3 me-5 card-link" for="defaultCheck1">
-        <input class="form-check-input me-2" style="vertical-align: middle;" type="checkbox" value="" id="defaultCheck1">Stay Signed In</label>
-      </div>
-        <div class="d-grid gap-2">
-          <button class="btn btn-primary w-75 mx-5 btn-2" type="button">Sign In</button>
-        </div>
-        <div class="m-3 text-center">
-          Not a member?<a href="signup.html" class="btn btn-link" role="button" aria-controls="offcanvasExample">
-            Sign Up</a>
-        </div>
-        <div class="text-center m-3">
-          <p>Another Sign-in</p>
-          <button type="button" class="btn btn-secondary btn-floating mx-1"><i class="bi bi-instagram" style="font-size: 2rem; color: black;"></i></button>
-          <button type="button" class="btn btn-secondary btn-floating mx-1"><i class="bi bi-facebook" style="font-size: 2rem; color: black;"></i></button>
-          <button type="button" class="btn btn-secondary btn-floating mx-1"><i class="bi bi-twitter" style="font-size: 2rem; color: black;"></i></button>
-          <button type="button" class="btn btn-secondary btn-floating mx-1"><i class="bi bi-github" style="font-size: 2rem; color: black;"></i></button>
+          <button type="button" class="btn btn-link text-decoration-none">Forgot Password</button>
+          <label class="form-check-label text-decoration-none my-3 me-5 card-link" for="defaultCheck1">
+            <input class="form-check-input me-2" style="vertical-align: middle;" type="checkbox" value="" id="defaultCheck1">Stay Signed In</label>
           </div>
-        </form>
-        <!-- form -->
+          <div class="d-grid gap-2">
+            <button class="btn btn-primary w-75 mx-5 btn-2" type="button">Sign In</button>
+            <div class="m-3 text-center">
+              Not a member?<a href="signup.html" class="btn btn-link" role="button" aria-controls="offcanvasExample">Sign Up</a>
+              <div class="text-center m-3">
+                <p>Another Sign-in</p>
+                <button type="button" class="btn btn-secondary btn-floating mx-1"><i class="bi bi-instagram" style="font-size: 2rem; color: black;"></i></button>
+                <button type="button" class="btn btn-secondary btn-floating mx-1"><i class="bi bi-facebook" style="font-size: 2rem; color: black;"></i></button>
+                <button type="button" class="btn btn-secondary btn-floating mx-1"><i class="bi bi-twitter" style="font-size: 2rem; color: black;"></i></button>
+                <button type="button" class="btn btn-secondary btn-floating mx-1"><i class="bi bi-github" style="font-size: 2rem; color: black;"></i></button>
+              </div>
+            </div>
+            </div>
+          </form>
+          <!-- form -->
+        </div>  
+      </div>
     </div>
-  </div>
-</div>
-<!-- modals -->
-<!-- carousel -->
-<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+    <!-- modals end-->
+    
+    <!-- carousel -->
+<!-- Carousel wrapper -->
+<div id="carouselExample" class="carousel slide" data-ride="carousel">
 
+  <!-- Inner -->
   <div class="carousel-inner">
-
-    <div class="carousel-item active c-item">
-      <img src="assets/avengers1.jpg" class="d-block w-100 c-img" alt="Slide 1">
-      <div class="carousel-caption top-0 mt-4">
-        <div class="content position-relative">
-          <h1 class="fs-1">Avengers: Endgame</h1>
-          <p class="fs-6 w-75 text-break">After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
-          <div class="details d-flex align-items-center">
-            <h6 style="font-size: 10px; margin-right: 10px; color:rgba(255, 255, 255, 0.8);">Marvel Studios</h6>
-            <h5 style="font-size: 10px; margin-right: 10px; color:rgba(142, 230, 48);">Action</h5>
-            <h4 style="font-size: 10px; margin-right: 10px; color:#fff">2019</h4>
-            <h3 style="font-size: 20px; margin-right: 10px; color:#fff;"><span class="bg-warning fw-bold mx-2 text-dark rounded-3 p-2">IMDb</span><i class="bi bi-star-fill"></i> 8.2</h3>
-            <div class="btns mb-4 d-flex align-items-center">
-              <a href="" class="p-2 fw-bold rounded-3 text-decoration-none me-1">Watch<i class="bi bi-play-fill"></i></a>
-              <a href="" class="p-2 fw-bold rounded-3 text-decoration-none me-1">Add To Watchlist <i class="bi bi-plus-square"></i></i></a>
-            </div>
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="row g-0 text-center">
+        <div class="col-6">
+          <img class="w-100" src="assets/is-it-wrong.png" alt="First slide" style="transform: scaleX(-1);">
+        </div>
+        <div class="image-gradient"></div>
+        <div class="col-6 description-movie">
+          <div class="d-flex flex-column justify-content-center">
+            <h1>Is It Wrong to Try to Pick Up Girls in a Dungeon?</h1>
+            <p>Is It Wrong to Try to Pick Up Girls in a Dungeon?, also known as DanMachi for short, and with English subtitle Familia Myth, is a Japanese light novel series written by Fujino Ōmori and illustrated by Suzuhito Yasuda. SB Creative has published seventeen volumes since January 2013 under their GA Bunko imprint.</p>
+            <p><i class="bi bi-star"></i>IMDB Rating: 8.5/10</p>
           </div>
-        </div>  
+          </div>
       </div>
     </div>
+ 
 
-    <div class="carousel-item active c-item">
-      <img src="assets/shutter-island.jpg" class="d-block w-100 c-img" alt="Slide 1">
-      <div class="carousel-caption top-0 mt-4">
-        <div class="content position-relative">
-          <h1 class="fs-1">Shutter Island</h1>
-          <p class="fs-6 w-75 text-break">In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.</p>
-          <div class="details d-flex align-items-center">
-            <h6 style="font-size: 10px; margin-right: 10px; color:rgba(255, 255, 255, 0.8);">A Netflix Original Film</h6>
-            <h5 style="font-size: 10px; margin-right: 10px; color:rgba(142, 230, 48);">Mystery, Thriller </h5>
-            <h4 style="font-size: 10px; margin-right: 10px; color:#fff">2022</h4>
-            <h3 style="font-size: 20px; margin-right: 10px; color:#fff;"><span class="bg-warning fw-bold mx-2 text-dark rounded-3 p-2">IMDb</span><i class="bi bi-star-fill"></i> 8.2</h3>
-            <div class="btns mb-4 d-flex align-items-center">
-              <a href="" class="p-2 fw-bold rounded-3 text-decoration-none me-1">Watch<i class="bi bi-play-fill"></i></a>
-              <a href="" class="p-2 fw-bold rounded-3 text-decoration-none me-1">Add To Watchlist <i class="bi bi-plus-square"></i></i></a>
-            </div>
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="row g-0 text-center">
+        <div class="col-6">
+          <img class="w-100" src="assets/single-part-2.png" alt="First slide">
+        </div>
+        <div class="col-6 description-movie">
+          <div class="d-flex flex-column justify-content-center">
+            <h1>Single Part 2</h1>
+            <p>Single Part 2 adalah film drama komedi Indonesia yang dirilis pada tahun 2019. Film ini merupakan sekuel dari film Single yang rilis pada tahun 2015.</p>
+            <p><i class="bi bi-star"></i>IMDB Rating: 8.5/10</p>
           </div>
-        </div>  
-      </div>
-    </div>
-
-    <div class="carousel-item active c-item">
-      <img src="assets/ant man1.jpg" class="d-block w-100 c-img" alt="Slide 1">
-      <div class="carousel-caption top-0 mt-4">
-        <div class="content position-relative">
-          <h1 class="fs-1">Ant-Man</h1>
-          <p class="fs-6 w-75 text-break">Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, pull off a plan that will save the world.</p>
-          <div class="details d-flex align-items-center">
-            <h6 style="font-size: 10px; margin-right: 10px; color:rgba(255, 255, 255, 0.8);">A Netflix Original Film</h6>
-            <h5 style="font-size: 10px; margin-right: 10px; color:rgba(142, 230, 48);">Comedy</h5>
-            <h4 style="font-size: 10px; margin-right: 10px; color:#fff">2021</h4>
-            <h3 style="font-size: 20px; margin-right: 10px; color:#fff;"><span class="bg-warning fw-bold mx-2 text-dark rounded-3 p-2">IMDb</span><i class="bi bi-star-fill"></i> 7.3</h3>
-            <div class="btns mb-4 d-flex align-items-center">
-              <a href="" class="p-2 fw-bold rounded-3 text-decoration-none me-1">Watch<i class="bi bi-play-fill"></i></a>
-              <a href="" class="p-2 fw-bold rounded-3 text-decoration-none me-1">Add To Watchlist <i class="bi bi-plus-square"></i></i></a>
-            </div>
           </div>
-        </div>  
-      </div>
-    </div>
-    
-    
+        </div>
+          </div>
 
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="row g-0 text-center">
+        <div class="col-6">
+          <img class="w-100" src="assets/alaskan.png" alt="First slide">
+        </div>
+     
+        <div class="col-6 description-movie">
+          <div class="d-flex flex-column justify-content-center">
+            <h1>Hunting Alaskan Dinosaurs</h1>
+            <p>A group of paleontologists head to the icy wilderness of Northern Alaska because they think they've found something completely unique and revolutionary: the lost world of the dinosaurs of Alaska.</p>
+            <p><i class="bi bi-star"></i>IMDB Rating: 8.5/10</p>
+          </div>
+          </div>
+        </div>
+          </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<!-- breadcrump -->
+<!-- Carousel wrapper -->
+<!-- modal -->
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
 
 
-
-<!-- grid -->
-<section id="movies">
-  <div class="main d-flex flex-wrap justify-content-center" id="movie">
-  <div class="movie movie-info card">
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/movies/transformer-banner.jpg" class="card-img-top" alt="transformer">
+      <div class="card-body">
+        <h5 class="card-title">Transformers: Dark of the Moon</h5>
+        <button type="button" class="btn" data-toggle="modal" data-target="#myModal" data-video="https://www.youtube.com/embed/ET9SHYzMz_4"><i class="bi bi-play-circle" style="font-size: 1.2rem; color: white;"></i><span class="h4 ms-2 text-light">Play</span></button>
+      </div>
+      
+    </div>
   </div>
-  </div>
-</section>
-<!-- Card -->
-<section id="membership">
-<h4 class="text-center sub-title mt-5" style=" color: #e1e788;"><span class="subscribe">Join</span> Our Membership</h4>
-<div class="row px-5">
-  <div class="col-sm-4 mb-3 mb-sm-0">
-    <div class="card bg-transparent border-0">
-      <img src="assets/silver.png" class="card-img-top" alt="...">
-      <div class="card-body d-flex justify-content-center mx-5">
-        <a href="#" class="btn btn-primary btn-2">Learn more</a>
+
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/movies/wanda-banner.jpg" class="card-img-top" alt="WandaVision">
+      <div class="card-body">
+        <h5 class="card-title">WandaVision</h5>
+        <button type="button" class="btn" data-toggle="modal" data-target="#myModal" data-video="https://www.youtube.com/embed/UBhlqe2OTt4"><i class="bi bi-play-circle" style="font-size: 1.2rem; color: white;"></i><span class="h4 ms-2 text-light">Play</span></button>
       </div>
     </div>
   </div>
-  <div class="col-sm-4 mb-3 mb-sm-0">
-    <div class="card bg-transparent border-0">
-      <img src="assets/gold.png" class="card-img-top" alt="...">
-      <div class="card-body d-flex justify-content-center mx-5">
-        <a href="#" class="btn btn-primary btn-2">Learn more</a>
+
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/movies/resident-evil.jpg" class="card-img-top" alt="resident-evil">
+      <div class="card-body">
+        <h5 class="card-title">Resident Evil: Retribution</h5>
+          <button type="button" class="btn" data-toggle="modal" data-target="#myModal" data-video="https://www.youtube.com/embed/hoyMT-7wEqs"><i class="bi bi-play-circle" style="font-size: 1.2rem; color: white;"></i><span class="h4 ms-2 text-light">Play</span></button>
       </div>
     </div>
   </div>
-  <div class="col-sm-4 mb-3 mb-sm-0">
-    <div class="card bg-transparent border-0">
-      <img src="assets/platinum.png" class="card-img-top" alt="...">
-      <div class="card-body d-flex justify-content-center mx-5">
-        <a href="#" class="btn btn-primary btn-2">Learn more</a>
+
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="images/movies/theatre-dead.jpg" class="card-img-top" alt="theatre-dead">
+      <div class="card-body">
+        <h5 class="card-title">Theatre of the Dead</h5>
+        <button type="button" class="btn" data-toggle="modal" data-target="#myModal" data-video="https://www.youtube-nocookie.com/embed/2WfkUo_lMa4"><i class="bi bi-play-circle" style="font-size: 1.2rem; color: white;"></i><span class="h4 ms-2 text-light">Play</span></button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col">
+ <div class="card h-100">
+      <img src="images/movies/captain-marvel.png" class="card-img-top" alt="captain-marvel.png">
+      <div class="card-body">
+        <h5 class="card-title">Captain Marvel</h5>
+        <button type="button" class="btn" data-toggle="modal" data-target="#myModal" data-video="https://www.youtube.com/embed/ATxnB3hdh5A?start=1"><i class="bi bi-play-circle" style="font-size: 1.2rem; color: white;"></i><span class="h4 ms-2 text-light">Play</span></button>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="col">
+    <div class="card">
+      <img src="images/movies/insidious.jpg" class="card-img-top" alt="insidious">
+      <div class="card-body">
+        <h5 class="card-title">insidious</h5>
+        <button type="button" class="btn" data-toggle="modal" data-target="#myModal" data-video="https://www.youtube.com/embed/zuZnRUcoWos"><i class="bi bi-play-circle" style="font-size: 1.2rem; color: white;"></i><span class="h4 ms-2 text-light">Play</span></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+         <img src="images/movies/end-game.jpg" class="card-img-top" alt="Skyscrapers">
+         <div class="card-body">
+           <h5 class="card-title">Marvel Studios' Avengers: Endgame</h5>
+           <button type="button" class="btn" data-toggle="modal" data-target="#myModal" data-video="https://www.youtube.com/embed/TcMBFSGVi1c"><i class="bi bi-play-circle" style="font-size: 1.2rem; color: white;"></i><span class="h4 ms-2 text-light">Play</span></button>
+         </div>
+       </div>
+     </div>
+
+     <div class="col">
+      <div class="card h-100">
+           <img src="images/movies/call.jpg" class="card-img-top" alt="call">
+           <div class="card-body">
+             <h5 class="card-title">The Call</h5>
+             <button type="button" class="btn" data-toggle="modal" data-target="#myModal" data-video="https://www.youtube.com/embed/hxkKeniT-0Q"><i class="bi bi-play-circle" style="font-size: 1.2rem; color: white;"></i><span class="h4 ms-2 text-light">Play</span></button>
+           </div>
+         </div>
+       </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog"  role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Movie Trailer</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="ratio ratio-16x9">
+        <iframe class="embed-responsive-item" id="video" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+       <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi minus quaerat corporis nulla nobis, consectetur quas accusantium totam culpa quibusdam animi, aliquid architecto quis! Quidem, earum. Obcaecati, unde eos!</h6>
       </div>
     </div>
   </div>
 </div>
-</section>
-<!-- subscribe -->
 
-<section class="container position-relative my-5 w-100" style="height: 350px;">
-  <div class="row">
-      <div class="col-sm-12">
-      <h4 class="text-center sub-title mt-5" style=" color: #e1e788;"><span class="subscribe">Subscribe</span> For New Movies</h4>
-      <p class="text-center fw-bold">Subscribe now and receive weekly notification with Movies materials,
-          <br>
-           New movies , Interesting popular Film and much more !</p>
-           <br>
-          </div>
-          <div class="col-sm-12 sub-area position-absolute">
-              <input type="email" name="email" placeholder="Email"/>
-              <button class="sub-btn btn shadow">Subscribe</button>
-          </div>
+<!-- membership -->
+
+<section id="membership">
+  <h4 class="text-center sub-title mt-5" style=" color: #e1e788;"><span class="subscribe">Join</span> Our Membership</h4>
+
+    
+  
+  <div class="row px-5 ">
+  <div class="card col-sm-4 mb-3 mb-sm-0 bg-transparent border-0 card-membership-img">
+    <img src="assets/silver.png" class="card-img-top" alt="Membership 1">
+    <div class="card-body card-membership">
+      <h5 class="card-title">Silver Membership</h5>
+      <p class="card-text">Benefit: Akses ke semua film terbaru</p>
+      <p class="card-text">Harga: Rp. 50.000/bulan</p>
+    </div>
   </div>
 
-</section>
-  <!-- Subscribe section end-->
+  <div class="card col-sm-4 mb-3 mb-sm-0 bg-transparent border-0 card-membership-img">
+    <img src="assets/gold.png" class="card-img-top" alt="Membership 2">
+    <div class="card-body card-membership">
+      <h5 class="card-title">Gold Membership</h5>
+      <p class="card-text">Benefit: Akses ke semua film terbaru dan diskon 50% pada merchandise</p>
+      <p class="card-text">Harga: Rp. 75.000/bulan</p>
+    </div>
+  </div>
+  
+  <div class="card col-sm-4 mb-3 mb-sm-0 bg-transparent border-0 card-membership-img">
+    <img src="assets/platinum.png" class="card-img-top" alt="Membership 3">
+    <div class="card-body card-membership">
+      <h5 class="card-title">Platinum Membership</h5>
+      <p class="card-text">Benefit: Akses ke semua film terbaru, diskon 50% pada merchandise, dan tiket gratis untuk 1 film per bulannya</p>
+      <p class="card-text">Harga: Rp. 100.000/bulan</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- subscribe -->
+
+<section class="newsletter">
+  <div class="container">
+  <div class="row">
+  <div class="col-sm-12">
+    <div class="content">
+      <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+    <div class="input-group ">
+           <input type="email" class="form-control rounded-start-3" placeholder="Enter your email">
+           <span class="input-group-btn">
+           <button class="btn rounded-end-3" type="submit">Subscribe Now</button>
+           </span>
+            </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </section>
   <!-- footer section -->
 <footer class="mt-4">
    <div class="container">
@@ -292,14 +394,24 @@
       </ul>
   </div>
 </div>
-<div class="col-sm-12 col-md-3 footer-menu">
+<div class="col-sm-12 col-md-3 footer-menu" id="contactform">
   <div class="footer-title">
-      <h4>Location-Map</h4>
-      <ul class="nav flex-column">
-          <li class="nav-item">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.2647948054905!2d106.9129217748743!3d-6.377031505708971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69935500696179%3A0xf08006487532da50!2sXXI%20Sinema!5e0!3m2!1sen!2sid!4v1673531264071!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </li>
-          </ul>
+      <h4>Contact us</h4>
+      <form>
+        <div class="mb-3">
+            <label class="form-label">Nama</label>
+            <input type="text" class="form-control"  placeholder="Nama">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email"  placeholder="Email" class="form-control">
+        </div>
+     
+          <div class="mb-3">
+            <label for="floatingTextarea2">Message</label>
+            <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </form>
       </div>
   </div>
 </div>   
@@ -311,9 +423,28 @@
 </section>
 
 
-<script src="script.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<script>
+  // Membuat event listener untuk masing-masing tombol
+  var buttons = document.querySelectorAll('button[data-toggle="modal"]');
+  buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      // Mendapatkan URL video dari data-video
+      var videoURL = button.getAttribute("data-video");
+      // Mengubah src iframe dengan URL video
+      document.getElementById('video').src = videoURL + "?autoplay=1&mute=1";
+      $('#myModal').modal('show');
+    });
+  });
+  $('#myModal').on('hidden.bs.modal', function (e) {
+    document.getElementById('video').src = "about:blank";
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
   </body>
+
 </html> 
+
+
 
