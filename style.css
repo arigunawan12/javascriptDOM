@@ -47,6 +47,16 @@ body {
   transition: 0.2s;
 }
 
+/* alert */
+
+.alert {
+  padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+
 .custom-btn {
   background: rgb(61, 67, 70);
   background: linear-gradient(260deg, rgba(61, 67, 70, 1) 41%, rgba(127, 123, 161, 0.7175245098039216) 76%);
